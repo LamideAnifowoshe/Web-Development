@@ -86,3 +86,12 @@ console.log(blessingBMI);
 
 var lammyHigherBMI = lammyBMI > blessingBMI;
 console.log("is lammy's BMI higher than blessings'?" + lammyHigherBMI);
+
+/********************************************
+ * If / else statement
+ */
+if (lammyBMI > blessingBMI) {
+  console.log("Lammy's BMI is greater than Blessing's BMI");
+} else {
+  console.log("Blessing's BMI is greater than Lammy's BMI");
+}
