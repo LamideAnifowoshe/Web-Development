@@ -95,3 +95,17 @@ if (lammyBMI > blessingBMI) {
 } else {
   console.log("Blessing's BMI is greater than Lammy's BMI");
 }
+
+/*****************
+ * Boolean logic
+ */
+var firstName = "Lammy";
+var age = 24;
+
+if (age < 13) {
+  console.log(firstName + "is a girl.");
+} else if (age >= 13 && age < 20) {
+  console.log(firstName + "is a teenager.");
+} else {
+  console.log(firstName + "is a lady.");
+}
