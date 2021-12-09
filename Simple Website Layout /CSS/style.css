@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/*Styling my Header*/
+.header {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font: italic small-caps bold 50px "Merriweather", serif;
+}
+
+.header p {
+  font: italic 20px "Merriweather", serif;
+}
