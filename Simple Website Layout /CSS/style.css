@@ -14,9 +14,67 @@ body {
 }
 
 .header h1 {
-  font: italic small-caps bold 50px "Merriweather", serif;
+  font: italic small-caps bolder 50px "Merriweather", serif;
 }
 
 .header p {
   font: italic 20px "Merriweather", serif;
+}
+
+/*Styling the TopNav*/
+ul {
+  list-style-type: none;
+  background-color: cornflowerblue;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover {
+  background-color: blue;
+}
+
+/*Styling the Dropdown*/
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  min-width: 200px;
+  position: absolute;
+  background-color: cornsilk;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  padding: 12px 15px;
+  color: blue;
+  text-align: center;
+  display: block;
+  border-bottom: 2px solid black;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 255, 0.13);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
