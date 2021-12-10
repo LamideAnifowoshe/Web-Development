@@ -4,27 +4,65 @@
 
 body {
   margin: 0;
+  font-family: "Merriweather", serif;
 }
-/*Styling my Header*/
+header {
+  background-color: cornflowerblue;
+  float: left;
+  width: 100%;
+  min-height: 70px;
+  border-bottom: 5px solid blue;
+}
+span.highlight {
+  color: white;
+  font: italic small-caps bolder 30px "Merriweather", serif;
+  padding: 0 0 0 10px;
+}
+.drop {
+  float: left;
+  display: inline-block;
+}
 img {
-  height: 130px;
-  width: 100px;
-  float: right;
+  height: 50px;
+  width: 60px;
 }
 
+.drop-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.drop-content img {
+  min-width: 180px;
+  height: 150px;
+}
+
+.drop:hover .drop-content {
+  display: block;
+}
+
+.desc {
+  padding: 0;
+  text-align: center;
+}
 /*Clearfix property*/
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+/*Styling my Header*/
 
 .header {
-  background-color: blue;
-  background-image: linear-gradient(to right blue, white);
-  color: white;
+  background: url("../images/lamss.jpeg") no-repeat 0 -200px;
+  background-size: 1400px 1400px;
+  width: 100%;
+  color: black;
   padding: 20px;
   text-align: center;
+  clear: left;
 }
 
 /*Transition Property*/
@@ -36,7 +74,7 @@ img {
 
 .header h1:hover {
   font: italic small-caps bolder 80px "Merriweather", serif;
-  color: pink;
+  color: white;
 }
 
 .header p {
