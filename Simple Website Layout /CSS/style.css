@@ -5,8 +5,10 @@
 body {
   margin: 0;
   font-family: "Merriweather", serif;
+
   background-color: rgba(245, 245, 245, 0.514);
 }
+
 header {
   background-color: cornflowerblue;
   float: left;
@@ -229,7 +231,7 @@ input[type="submit"]:hover {
 /*Main Content-Right Column*/
 .col25 {
   width: 25%;
-  border: 2px solid cornflowerblue;
+  background-color: red;
 }
 
 .li {
@@ -239,9 +241,11 @@ input[type="submit"]:hover {
 }
 
 footer {
+  margin: auto;
   padding: 20px;
-  margin-top: 20px;
-  color: #ffffff;
-  background-color: #e8491d;
   text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+  text-weight: bold;
+  clear: left;
 }
