@@ -23,6 +23,7 @@ span.highlight {
   float: left;
   display: inline-block;
 }
+
 img {
   height: 50px;
   width: 60px;
@@ -108,7 +109,12 @@ li a,
 
 li a:hover,
 .dropdown:hover {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.123);
+  font-weight: bolder;
+}
+
+.active a {
+  background-color: rgba(228, 27, 60, 0.699);
 }
 
 /*Styling the Dropdown*/
@@ -161,6 +167,7 @@ li.dropdown {
   background-color: #f2f2f2;
   padding: 20px;
   height: 580px;
+  border: 1px solid rgba(128, 128, 128, 0.274);
 }
 input[type="text"],
 select {
@@ -222,9 +229,19 @@ input[type="submit"]:hover {
 /*Main Content-Right Column*/
 .col25 {
   width: 25%;
-  float: right;
+  border: 2px solid cornflowerblue;
 }
 
 .li {
   font-weight: bold;
+  color: white;
+  float: left;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
 }
