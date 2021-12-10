@@ -6,15 +6,37 @@ body {
   margin: 0;
 }
 /*Styling my Header*/
+img {
+  height: 130px;
+  width: 100px;
+  float: right;
+}
+
+/*Clearfix property*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .header {
   background-color: blue;
+  background-image: linear-gradient(to right blue, white);
   color: white;
   padding: 20px;
   text-align: center;
 }
 
+/*Transition Property*/
 .header h1 {
   font: italic small-caps bolder 50px "Merriweather", serif;
+  text-shadow: 2px 2px;
+  transition: width 2s;
+}
+
+.header h1:hover {
+  font: italic small-caps bolder 80px "Merriweather", serif;
+  color: pink;
 }
 
 .header p {
@@ -51,6 +73,8 @@ li a:hover,
 /*Styling the Dropdown*/
 li.dropdown {
   display: inline-block;
+  position: absolute;
+  right: 150px;
 }
 
 .dropdown-content {
@@ -77,4 +101,14 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/*Main Content-Left Column*/
+.col75 {
+  width: 75%;
+}
+.image {
+  height: 300px;
+  width: 250px;
+  float: left;
 }
