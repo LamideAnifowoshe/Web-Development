@@ -115,9 +115,9 @@ li a:hover,
   font-weight: bolder;
 }
 
-.active a {
+/* .active a {
   background-color: rgba(228, 27, 60, 0.699);
-}
+} */
 
 /*Styling the Dropdown*/
 li.dropdown {
@@ -156,12 +156,6 @@ li.dropdown {
 .col75 {
   width: 75%;
   float: left;
-}
-.image {
-  height: 500px;
-  width: 100%;
-  float: left;
-  display: none;
 }
 
 .form {
