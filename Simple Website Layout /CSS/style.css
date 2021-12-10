@@ -75,14 +75,19 @@ img {
 .header h1 {
   font: italic small-caps bolder 50px "Merriweather", serif;
   text-shadow: 2px 2px;
-  transition: width 2s;
 }
 
-.header h1:hover {
+#content {
+  display: none;
+}
+/*
+.header h1:hover,
+#content {
+  display: block;
   font: italic small-caps bolder 80px "Merriweather", serif;
   color: white;
 }
-
+*/
 .header p {
   font: italic 20px "Merriweather", serif;
 }
