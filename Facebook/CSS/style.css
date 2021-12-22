@@ -1,0 +1,51 @@
+nav {
+  background-color: white !important;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+  height: 55px;
+}
+
+.fa-home,
+.fa-user-friends,
+.fa-users {
+  font-size: 23px;
+}
+
+.fa-bars,
+.fa-facebook-messenger,
+.fa-bell {
+  font-size: 18px;
+  color: black;
+  background-color: rgb(235, 231, 231);
+  padding: 10px 11px;
+  border-radius: 25px;
+}
+
+.dropdown {
+  font-size: 18px;
+  margin: 7px 0 0 0;
+  border-radius: 25px;
+  background-color: hsl(240, 32%, 91%);
+}
+
+.fa-user-circle {
+  font-size: 25px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.nav-link:hover {
+  background-color: hsl(223, 64%, 98%);
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 20px !important;
+  width: 20px !important;
+  background-color: hsl(240, 73%, 96%) !important;
+  border: none !important;
+}
+
+.btn {
+  background-color: rgb(228, 220, 220) !important;
+  border-radius: 20px !important;
+}

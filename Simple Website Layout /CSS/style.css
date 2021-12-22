@@ -11,10 +11,11 @@ body {
 
 header {
   background-color: cornflowerblue;
-  float: left;
   width: 100%;
   min-height: 70px;
   border-bottom: 5px solid blue;
+  position: absolute;
+  right: 0px;
 }
 span.highlight {
   color: white;
@@ -91,11 +92,16 @@ img {
 }
 
 /*Styling the TopNav*/
+.topnav {
+  position: absolute;
+  left: 100px;
+}
 ul {
   list-style-type: none;
   background-color: cornflowerblue;
   margin: 0;
   overflow: hidden;
+  text-align: center;
 }
 
 li {
