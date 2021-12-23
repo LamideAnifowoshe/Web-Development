@@ -71,7 +71,7 @@ input {
 #sidenav {
   height: 100%;
   color: black;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 footer a {
