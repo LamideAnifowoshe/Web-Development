@@ -1,13 +1,22 @@
 nav {
   background-color: white !important;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
-  height: 55px;
+  height: 60px;
+}
+
+.navbar-nav w-100 justify-content-sm-center {
+  margin-left: 49px;
 }
 
 .fa-home,
-.fa-user-friends,
-.fa-users {
+.fa-user-friends {
   font-size: 23px;
+}
+
+.fa-users {
+  font-size: 22px;
+  border: 2px solid grey;
+  border-radius: 40px;
 }
 
 .fa-bars,
@@ -17,20 +26,23 @@ nav {
   color: black;
   background-color: rgb(235, 231, 231);
   padding: 10px 11px;
+  margin: 0 -3px;
   border-radius: 25px;
 }
 
 .dropdown {
   font-size: 18px;
-  margin: 7px 0 0 0;
-  border-radius: 25px;
+  margin: 9px 0 0 0;
+  border-radius: 20px;
   background-color: hsl(240, 32%, 91%);
 }
 
 .fa-user-circle {
-  font-size: 25px;
-  padding: 5px 10px;
+  font-size: 28px;
+  padding: 7px 10px 7px 5px;
+  margin: 0 -8px;
   border-radius: 20px;
+  color: rgb(201, 197, 197);
 }
 
 .nav-link:hover {
@@ -46,6 +58,11 @@ input {
 }
 
 .btn {
-  background-color: rgb(228, 220, 220) !important;
+  background-color: hsl(227, 23%, 92%) !important;
   border-radius: 20px !important;
+  color: hsl(219, 9%, 45%);
+}
+
+.nav-link {
+  color: red;
 }

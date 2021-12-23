@@ -15,14 +15,19 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-        <img class="navbar-brand" src="./images/facebookhome.png" style="width:40px">
+        <img id="demo" class="navbar-brand collapse show" src="./images/facebookhome.png" style="width:40px">
         
         <div class="input-group w-50">
-            <input type="search" placeholder="Search Facebook" class="form-control cl-sm-2">
+            <input type="search" placeholder="Search Facebook" class="form-control cl-sm-2" data-toggle="popover" data-placement="bottom" data-content="No recent searches">
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
           </div>
           
         
-        <ul class="navbar-nav w-100 justify-content-sm-center">
+        <ul class="navbar-nav w-100 justify-content-sm-center" style="margin-left:150px;">
           <li class="nav-item">
             <a class="nav-link px-sm-5 active" href="#" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fas fa-home"></i></a>
           </li>
@@ -40,7 +45,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> Awofeso</a>
+                <a class="nav-link" href="#"><i class="fas fa-user-circle"></i>Awofeso</a>
               </li>
 
               <li class="nav-item">
@@ -57,7 +62,7 @@
 
               <li class="nav-item">
                 <div class="dropdown" data-toggle="tooltip" data-placement="bottom" title="Alert">
-                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn dropdown-toggle px-2" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#">Link 1</a>
@@ -69,10 +74,15 @@
     </ul>
       </nav>
       
-
-
-
-
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-sm-2">
+                  <ul>
+                      
+                  </ul>
+              </div>
+          </div>
+      </div>
 
 
 
@@ -91,6 +101,11 @@
 
 
       <script>
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();   
+        });
+        </script>
+ <script>
         $(document).ready(function(){
           $('[data-toggle="tooltip"]').tooltip();   
         });
