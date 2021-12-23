@@ -74,6 +74,6 @@ input {
   overflow-y: scroll;
 }
 
-.btn dropdown-toggle btn-light {
-  border-radius: 0;
+footer a {
+  color: grey;
 }
