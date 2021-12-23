@@ -9,7 +9,8 @@ nav {
 }
 
 .fa-home,
-.fa-user-friends {
+.fa-user-friends,
+.fa-facebook {
   font-size: 23px;
 }
 
@@ -65,4 +66,14 @@ input {
 
 .nav-link {
   color: red;
+}
+
+#sidenav {
+  height: 100%;
+  color: black;
+  overflow-y: scroll;
+}
+
+.btn dropdown-toggle btn-light {
+  border-radius: 0;
 }
