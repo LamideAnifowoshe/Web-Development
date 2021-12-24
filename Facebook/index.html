@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
@@ -20,11 +21,6 @@
         
         <div class="input-group w-50">
             <input type="search" placeholder="Search Facebook" class="form-control cl-sm-2" data-toggle="popover" data-placement="bottom" data-content="No recent searches">
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Link 1</a>
-                <a class="dropdown-item" href="#">Link 2</a>
-                <a class="dropdown-item" href="#">Link 3</a>
-              </div>
           </div>
           
         
@@ -62,7 +58,7 @@
               </li>
 
               <li class="nav-item">
-                <div class="dropdown" data-toggle="tooltip" data-placement="bottom" title="Alert">
+                <div class="dropdown pt-2" data-toggle="tooltip" data-placement="bottom" title="Alert">
                     <button type="button" class="btn dropdown-toggle px-2" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -135,27 +131,60 @@
 
                 <div class="col-sm-7 pl-4">
 
-                    <div class="media w-75 justify-content-sm-center border pt-3">
-                        <img src="./images/cross.png" class="mr-3 mt-3" style="width:30px;">
+                    <div class="media w-75 shadow-sm rounded border pt-3">
+                        <a href=#><img src="./images/cross.png" class="mr-3 mt-3" style="width:30px;">
                         <div class="media-body">
                           <h6>Create Story</h6>
-                          <p>Share a photo or write something</p>
+                          <p>Share a photo or write something</p></a>
                         </div>
                       </div>
 
-                      <div class="card col-sm-6 mt-4">
-                        <div class="card-body"><i class="fas fa-user-circle"></i><input type="text" placeholder="What's on your mind Awofeso?"></div>
-                        <div class="card-footer "><a href=#>Live Video</a>
-                            <a href=#>Photo/Video</a>
-                            <a href=#>Feeling/Activity</a></div>
+                      <div class="card w-75 shadow-sm rounded mt-4">
+                        <div class="card-body"><i class="fas fa-user-circle"></i><input class="w-75" type="text" placeholder="What's on your mind Awofeso?"></div>
+                        <div class="card-footer"><a href=# class="pl-sm-4"><i class="fas fa-video"></i>Live Video</a>
+                            <a href=# class="pl-sm-5"><i class="fas fa-image"></i>Photo/Video</a>
+                            <a href=# class="pl-sm-5"><i class="far fa-smile-beam"></i>Feeling/Activity</a></div>
                       </div>
+
+                      <div class="card w-75 shadow-sm rounded mt-4">
+                        <div class="card-body"><a href=# class="pl-sm-4"><i class="fas fa-video"></i> Create Room</a></div>
+                      </div>
+
+
+
                  </div>
 
 
+
+
+
+
+
+
+
+
+
           <div class="cl-sm-3">
-            <div class="card">
+            <div class="card w-100">
                 
-                <div class="card-body"><h6 class="card-title">Card title</h6>
+                <div class="card-body"><h6 class="card-title">Contacts
+                    <span class="pl-5">  <a href="#"><i class="fas fa-video"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                    </button>
+                    <div class="dropdown-menu">
+                      <h5 class="dropdown-header">Dropdown header</h5>
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                      <h5 class="dropdown-header">Dropdown header</h5>
+                      <a class="dropdown-item" href="#">Another link</a>
+                    </div>
+                  </div>
+            
+            </span>
+                </h6>
                     
                     <a href="#" class="card-link">Card link</a>
                     <a href="#" class="card-link">Another link</a></div>
