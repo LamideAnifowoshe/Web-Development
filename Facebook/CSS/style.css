@@ -12,6 +12,10 @@ nav {
   margin-left: 49px;
 }
 
+.col-sm-7 {
+  margin-left: 400px;
+}
+
 .fa-home,
 .fa-user-friends,
 .fa-facebook {
@@ -74,15 +78,15 @@ input {
   overflow: auto;
 }
 
-.testimonial-group > .row {
-  display: block;
-  overflow-x: auto;
+.row-fluid {
+  overflow: auto;
   white-space: nowrap;
 }
-.testimonial-group > .row > .col-4 {
-  display: inline-block;
-}
 
+.row-fluid .col-sm-3 {
+  display: inline-block;
+  float: none;
+}
 footer a {
   color: grey;
 }

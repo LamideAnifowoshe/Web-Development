@@ -79,7 +79,7 @@
       <div class="container-fluid h-100" style="margin-top:70px">
           <div class="row h-100">
 
-              <div class="cl-sm-2 list-group-flush" id="sidenav">
+              <div class="cl-sm-2 list-group-flush" id="sidenav" style="height:650px; overflow-y:scroll; position:fixed;">
 
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-user-circle"></i> Awofeso Abidemi</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-user-friends"></i> Find Friends</a>
@@ -116,6 +116,7 @@
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-cloud-sun-rain"></i> Weather</a>
                 <a href="#demo" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#demo"><i class="fas fa-chevron-circle-up"></i> See Less</a>
                 </div>
+
                 <footer class="page-sm-footer cl-sm-2 border border-0" style="font-size: small; color:grey;">
                     <a href=#>Privacy</a>
                     <a href=#>.Terms</a>
@@ -129,7 +130,7 @@
             </footer>
             </div>
 
-                <div class="col-sm-7 pl-4">
+                <div class="col-sm-7">
 
                     <div class="media w-75 shadow-sm rounded border pt-3">
                         <a href=#><img src="./images/cross.png" class="mr-3 mt-3" style="width:30px;">
@@ -146,12 +147,13 @@
                             <a href=# class="pl-sm-5"><i class="far fa-smile-beam"></i>Feeling/Activity</a></div>
                       </div>
 
-                      <div class="card w-75 shadow-sm rounded mt-4">
+                    <div class="card w-75 shadow-sm rounded mt-4">
                         <div class="card-body"><a href=# class="pl-sm-4"><i class="fas fa-video"></i> Create Room</a></div>
                       </div>
 
                       <div class="card w-75 shadow-sm rounded mt-4">
-                        <div class="card-header"><div class="media border p-3">
+                        <div class="card-header">
+                            <div class="media border p-3">
                             <img src="./images/image2.jpeg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                             <div class="media-body">
                               <h6>Juma kats <br>
@@ -164,80 +166,127 @@
 
                         <div class="card-body">
                             <div class="card-group">
+
                                 <div class="card">
                                   <div class="card-body">
                                     <img src="./images/image1.jpeg" alt="image1" style="width:200px;">
                                   </div>
                                 </div>
+
                                 <div class="card">
                                   <div class="card-body">
                                     <img src="./images/image2.jpeg" alt="image2" style="width:200px; height: 250px;">
                                   </div>
                                 </div>
                             </div>
+
                             <div class="card-body">
                                 <a href=#><i class="fas fa-thumbs-up"></i> Juma Kats and 9 others.</a>
                             </div>
+
                             <div class="card-body">
                                 <a href=# class="pr-2"><i class="fas fa-thumbs-up"></i> Like</a> 
                                 <a href=# style="float:right;"><i class="far fa-comment-alt"></i> comment</a>
                             </div>
+
                             <div class="card-body">
-                                
                                 <span class="input-group w-100">
                                     <i class="fas fa-user-circle"></i> <input type="text" placeholder="Write a comment" class="form-control cl-sm-2">
                                     </span> 
                                   <small>Press Enter to Post.</small>
                             </div>
                           
+                        </div>
 
 
 
-                            <div class="card w-100 shadow-sm rounded mt-5>
+                            <div class="card w-100 shadow-sm rounded mt-5">
+                                
                                 <div class="card-header">
                                     <a href=#>People you may know</a>
                                 </div>
                                 
                                 <div class="card-body">
 
-                                    <div class="container testimonial-group">
-                                        <div class="row">
-                                          <div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div><!--
-                                       --><div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div><!--
-                                       --><div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div><!--
-                                       --><div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div><!--
-                                       --><div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div><!--
-                                       --><div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div><!--
-                                       --><div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div><!--
-                                       --><div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div><!--
-                                       --><div class="col-xs-4"><img src="./images/image1.jpeg" style="width:100px;></div>
+                                    <div class="span11" style="overflow: auto">
+                                        <div class="row-fluid">
+                                            <div class="col-sm-3">
+                                                <div class="card" style="width:150px">
+                                                <img class="card-img-top" src="./images/image1.jpeg" alt="Card image">
+                                                <div class="card-body">
+                                                  <h6 class="card-title">John Doe</h6>
+                                            
+                                                  <a href="#" class="btn btn-primary btn-small stretched-link">Add Friend</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="col-sm-3"> 
+                                                <div class="card" style="width:150px">
+                                                <img class="card-img-top" src="./images/image1.jpeg" alt="Card image">
+                                                <div class="card-body">
+                                                  <h6 class="card-title text-sm-center">John Doe</h6>
+                                            <a href="#" class="btn btn-primary btn-small stretched-link">Add Friend</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="col-sm-3">  <div class="card" style="width:150px">
+                                                <img class="card-img-top" src="./images/image1.jpeg" alt="Card image">
+                                                <div class="card-body">
+                                                  <h6 class="card-title text-sm-center">John Doe</h6>
+                                           <a href="#" class="btn btn-primary btn-small stretched-link">Add Friend</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="col-sm-3">  <div class="card" style="width:150px">
+                                                <img class="card-img-top" src="./images/image1.jpeg" alt="Card image">
+                                                <div class="card-body">
+                                                  <h6 class="card-title text-sm-center">John Doe</h6>
+                                            <a href="#" class="btn btn-primary btn-small stretched-link">Add Friend</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="col-sm-3">  <div class="card" style="width:150px">
+                                                <img class="card-img-top" src="./images/image1.jpeg" alt="Card image">
+                                                <div class="card-body">
+                                                  <h6 class="card-title text-sm-center">John Doe</h6>
+                                            <a href="#" class="btn btn-primary btn-small stretched-link">Add Friend</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="col-sm-3">  <div class="card" style="width:150px">
+                                                <img class="card-img-top" src="./images/image1.jpeg" alt="Card image">
+                                                <div class="card-body">
+                                                  <h6 class="card-title text-sm-center">John Doe</h6>
+                                            <a href="#" class="btn btn-primary btn-small stretched-link">Add Friend</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="col-sm-3">  <div class="card" style="width:150px">
+                                                <img class="card-img-top" src="./images/image1.jpeg" alt="Card image">
+                                                <div class="card-body">
+                                                  <h6 class="card-title text-sm-center">John Doe</h6>
+                                            <a href="#" class="btn btn-primary btn-small stretched-link">Add Friend</a>
+                                                </div>
+                                              </div>
+                                            </div>
                                         </div>
-                                      </div>
+                                    </div>
+                                          
+                                            
 
-
-
-
-
-
-                                      </div>
-
-
-
-
-
-                                </div>
-                                <div class="card-footer">Footer</div>
-                              </div>
-
-
-
-
-
-
-
-
-
-                 </div>
+                         
+                         
+                         
+                                            <div class="card-footer text-sm-center"><a href=#>See all</a></div>
+                              
+                            </div>
+                            
 
 
 
@@ -257,7 +306,10 @@
 
 
 
-          <div class="cl-sm-2">
+
+
+                 
+          <div class="cl-sm-3" style="float:right;">
             <div class="card w-100">
                 
                 <div class="card-body"><h6 class="card-title">Contacts
@@ -289,12 +341,11 @@
               </div>
           </div>
         
+        
           
           
           
-          
-                </div>
-      </div>
+     
 
 
 
