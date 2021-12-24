@@ -18,8 +18,50 @@ nav {
 
 .fa-home,
 .fa-user-friends,
-.fa-facebook {
+.fa-facebook,
+.fa-user-circle,
+.fa-iglo,
+.fa-tv,
+.fa-history,
+.fa-bookmark,
+.fa-flag,
+.fa-calendar-times,
+.fa-briefcase,
+.fa-bullhorn,
+.fa-chart-bar,
+.fa-chess-king,
+.fa-hands-helping,
+.fa-medkit,
+.fa-heartbeat,
+.fa-credit-card,
+.fa-star,
+.fa-gratipay,
+.fa-dice,
+.fa-universal-access,
+.fa-calendar-check,
+.fa-gamepad,
+.fa-calendar,
+.fa-cloud-sun-rain {
   font-size: 23px;
+}
+
+.fa-user-friends,
+.fa-facebook,
+.fa-iglo,
+.fa-user-circle,
+.fa-tv,
+.fa-history,
+.fa-calendar-times {
+  color: blue;
+}
+
+.fa-bookmark {
+  color: purple;
+}
+
+.fa-flag,
+.fa-briefcase {
+  color: rgb(255, 187, 0);
 }
 
 .fa-users {
@@ -39,7 +81,16 @@ nav {
   border-radius: 25px;
 }
 
-.dropdown {
+.fa-video {
+  color: red;
+}
+
+.fa-image {
+  color: green;
+}
+
+.fa-smile-beam {
+  color: rgb(97, 89, 21);
 }
 
 .fa-user-circle {
