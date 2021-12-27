@@ -16,7 +16,7 @@ height: 60px;
 }
 
 form {
-    padding-left: 250px;
+    padding-left: 220px;
 }
 
 .fa-home,
@@ -27,4 +27,8 @@ form {
     font-size: 23px;
     color: black;
     padding-left: 8px;
+}
+
+.container {
+    width: 80%;
 }
