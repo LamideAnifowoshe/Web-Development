@@ -1,3 +1,7 @@
+nav {
+border-bottom: 1px solid rgb(218, 214, 214);
+height: 60px;
+}
 
 .navbar-brand {
     font-family: 'Pushster', cursive;
@@ -7,11 +11,20 @@
 }
 
 .navbar-nav {
-    padding-right: 165px;
+    padding-right: 160px;
+    margin-top: 14px;
 }
 
 form {
     padding-left: 250px;
 }
 
-
+.fa-home,
+.fa-facebook-messenger,
+.fa-plus-square,
+.fa-compass,
+.fa-heart {
+    font-size: 23px;
+    color: black;
+    padding-left: 8px;
+}
