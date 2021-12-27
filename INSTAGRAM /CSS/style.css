@@ -1,0 +1,17 @@
+
+.navbar-brand {
+    font-family: 'Pushster', cursive;
+     padding-left: 165px; 
+     font-size: 25px !important; 
+     font-weight: lighter !important;
+}
+
+.navbar-nav {
+    padding-right: 165px;
+}
+
+form {
+    padding-left: 250px;
+}
+
+
