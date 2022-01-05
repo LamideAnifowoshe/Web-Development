@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <link rel="stylesheet" href="./css/style.css"> 
+    <meta name="author" content="Olamide Anifowoshe">
     <title>Facebook Clone Page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
   
@@ -79,7 +80,7 @@
       <div class="container-fluid h-100" style="margin-top:70px">
           <div class="row h-100">
 
-              <div class="cl-sm-2 list-group-flush" id="sidenav" style="height:650px; overflow-y:scroll; position:fixed; right:0;">
+              <div class="cl-sm-2 list-group-flush" id="sidenav" style="height:650px; overflow-y:scroll; position:fixed;">
 
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-user-circle"></i> Awofeso Abidemi</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-user-friends"></i> Find Friends</a>
@@ -96,7 +97,7 @@
                 <a href="#demo" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#demo"><i class="fas fa-chevron-circle-down"></i> See More</a>
                 
   
-                <div id="demo" class="collapse">
+                <div id="demo" class="collapse"  data-bs-parent="#accordion">
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-bullhorn"></i> Ads Center</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-chart-bar"></i> Ad Manager</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-chess-king"></i> Climate Science Center</a>
@@ -114,7 +115,7 @@
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-gamepad"></i> Play games</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="far fa-calendar"></i> Recent Ad Activity </a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-cloud-sun-rain"></i> Weather</a>
-                <a href="#demo" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#demo"><i class="fas fa-chevron-circle-up"></i> See Less</a>
+                <a href="#demo" class="collapse show list-group-item list-group-item-action" data-toggle="collapse" data-target="#demo" data-bs-parent="#accordion"><i class="fas fa-chevron-circle-up"></i> See Less</a>
                 </div>
 
                 <footer class="page-sm-footer cl-sm-2 border border-0" style="font-size: small; color:grey;">
