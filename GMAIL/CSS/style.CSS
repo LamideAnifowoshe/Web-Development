@@ -11,3 +11,8 @@ padding-top: 10px;
 .fa-bars {
     color: rgba(85, 84, 84, 0.801);
 }
+
+.navbar {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.151);
+}
+
