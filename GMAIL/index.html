@@ -13,8 +13,9 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" style="height:60px;">
         <div class="container-fluid">
-
-            <a class="navbar-brand" href="#" style="padding-left:40px;"><img src="./images/gmail.jpeg" style="width:70px;"><span style="font-size:larger; color:rgba(80, 78, 78, 0.932);">Gmail</span></a>
+          <a data-bs-toggle="collapse" href="#demo" class="ps-4"><i class="fas fa-bars"></i></a>
+ 
+          <a class="navbar-brand" href="#"><img src="./images/gmail.jpeg" style="width:70px;"><span style="font-size:larger; color:rgba(80, 78, 78, 0.932);">Gmail</span></a>
             
             <form class="d-flex me-auto" style="padding-left:50px;">
                 <div class="input-group input-group-lg">
@@ -43,13 +44,17 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
                 </li>  
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="far fa-compass"></i></a>
-                  </li> 
-
-
-
-
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"><img src="./images/lammy.jpeg" class="rounded-circle" style="width:30px; height:30px;"></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><i class="far fa-user-circle"></i> Profile</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fab fa-buffer"></i> Saved</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fab fa-bity"></i> Switch accounts</a></li>
+                    <li><a class="dropdown-item" href="#">Log out</a></li>
+                  </ul>
+                  </li>
+              </ul>
     </nav>
 
 

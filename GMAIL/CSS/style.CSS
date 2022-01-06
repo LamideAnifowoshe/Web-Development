@@ -3,4 +3,11 @@
 .fa-bars {
 font-size: 20px;
 padding-right: 15px;
+padding-top: 10px;
+}
+
+.fa-search,
+.fa-sliders-h,
+.fa-bars {
+    color: rgba(85, 84, 84, 0.801);
 }
